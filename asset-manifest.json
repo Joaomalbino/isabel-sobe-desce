@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/isabel-sobe-desce/static/css/main.e6c13ad2.css",
-    "main.js": "/isabel-sobe-desce/static/js/main.03aa11db.js",
-    "static/js/453.e091cbfe.chunk.js": "/isabel-sobe-desce/static/js/453.e091cbfe.chunk.js",
+    "main.css": "/isabel-sobe-desce/static/css/main.e69754a9.css",
+    "main.js": "/isabel-sobe-desce/static/js/main.f68b4b60.js",
     "index.html": "/isabel-sobe-desce/index.html",
-    "main.e6c13ad2.css.map": "/isabel-sobe-desce/static/css/main.e6c13ad2.css.map",
-    "main.03aa11db.js.map": "/isabel-sobe-desce/static/js/main.03aa11db.js.map",
-    "453.e091cbfe.chunk.js.map": "/isabel-sobe-desce/static/js/453.e091cbfe.chunk.js.map"
+    "main.e69754a9.css.map": "/isabel-sobe-desce/static/css/main.e69754a9.css.map",
+    "main.f68b4b60.js.map": "/isabel-sobe-desce/static/js/main.f68b4b60.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.03aa11db.js"
+    "static/css/main.e69754a9.css",
+    "static/js/main.f68b4b60.js"
   ]
 }
