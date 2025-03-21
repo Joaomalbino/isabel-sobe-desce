@@ -1,7 +1,9 @@
 import React from 'react';
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
+import IsabelSobeDesce from './pages/IsabelSobeDesce';
 
 const theme = createTheme({
   palette: {
@@ -19,13 +21,18 @@ const theme = createTheme({
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <div className="App">
-        <Navbar />
-        <Home />
-      </div>
-    </ThemeProvider>
+    <Router>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <div className="App">
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/isabel-sobe-desce" element={<IsabelSobeDesce />} />
+          </Routes>
+        </div>
+      </ThemeProvider>
+    </Router>
   );
 }
 
